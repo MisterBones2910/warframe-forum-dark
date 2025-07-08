@@ -16,6 +16,9 @@ div.site_limiter a img {
 html .ipsResponsive_showDesktop ipsResponsive_block .ipsNavBar_active ul.ipsNavBar_primary,
 .ipsWidget.ipsWidget_vertical .ipsWidget_title,
 .ipsBox,
+#ipsLayout_contentArea {
+    background:#23272a;
+}
 #elUserNav,
 .ipsWidget.ipsWidget_horizontal .ipsWidget_title,
 .ipsLayout_container div.ipsNavBar_primary.ipsClearFix,
@@ -40,7 +43,7 @@ div#top-links {
 .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_first a,
 .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_last a,
 .ipsType_pageTitle span, a, .ipsApp .navmenu li a, #elUserNav > li > a:not( #elRegisterButton ) {
-    color: red;
+    color: #076C9D;
 }
 .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_page a,
 .ipsApp .ipsButtonBar .ipsPagination .ipsPagination_next a,
@@ -104,7 +107,7 @@ div.cPost_contentWrap.ipsPad p,
 }
 
 #ipsTabs_elProfileTabs_elProfileTab_field_core_pfield_1_panel, a span, .ipsMenu_item > a, .ipsMenu_item > span, div p a:hover  {
-    color: red!important;
+    color: #076C9D!important;
 }
 
 blockquote.ipsQuote,
@@ -174,7 +177,7 @@ li.ipsDataItem,
     color: white;
 }
 
-p a span {color: red!important;}
+p a span {color: #076C9D!important;}
 
 li.ipsDataItem, .ipsAreaBackground_reset, p span, .cRatingColumn, div.ipsDataItem_meta.ipsType_break.is-truncated, .ipsComment, .ipsComment.ipsBox, .ipsPad, article section >*, .ipsType_normal.ipsType_richText.ipsContained >* {
 	background-color: rgba(31, 31, 31, 0.8);
@@ -253,7 +256,7 @@ div.ipsType_richText.ipsType_small td
 #elSearch input[type="search"] {color: #99AAB5;}
 
 .ipsSpoiler_header.ipsSpoiler_closed [data-action='toggleSpoiler']:before {
-    color: red;
+    color: #076C9D;
 }
 
 b span, strong span{
@@ -297,7 +300,7 @@ li.ipsWidget.ipsWidget_vertical.ipsBox:not(:first-child) {
 }
 
 a.cke_button_on, a.cke_button_off:hover, a.cke_button_off:focus, a.cke_button_off:active, a.cke_button_disabled:hover, a.cke_button_disabled:focus, a.cke_button_disabled:active {
-	background-color: rgba(255,0,0,20);
+	background-color: rgba(170,34,34,20);
 }
 
 .cke_toolbar .cke_button_icon {
